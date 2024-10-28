@@ -100,7 +100,7 @@
 ### 联系我们
 - **欢迎您加入社区交流分享**
   - **微信交流群**
-  <img style="margin: 20px 20px 20px 0;" src="img/us.png" width="300" height="300"/>
+  <img style="margin: 20px 20px 20px 0;" src="img/us.jpg" width="300" height="300"/>
 
   - **QQ交流群：加群备注：Bigprime Data Integration**
   
