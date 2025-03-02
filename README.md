@@ -102,7 +102,7 @@
   - **微信交流群**
   <img style="margin: 20px 20px 20px 0;" src="img/us.png" width="300" height="300"/>
 
-  - **QQ交流群：加群备注：Bigprime Data Integration**
+  - **QQ交流群：**
   
   <img style="margin: 20px 20px 20px 0;" src="img/qq.png" width="300" height="300"/>
 
