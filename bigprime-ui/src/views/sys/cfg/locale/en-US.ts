@@ -1,0 +1,32 @@
+export default {
+  'sys.cfg.tab.title.file.storage': 'File Storage',
+  'sys.cfg.tab.title.data.integration': 'Data Integration',
+  'sys.cfg.integration.qversion': 'applicableVersion',
+  'sys.cfg.integration.qdb': 'applicableDB',
+
+  'sys.cfg.integration.draw.add': 'add',
+  'sys.cfg.integration.draw.update': 'update',
+
+  'sys.cfg.integration.gridCol.product': 'product',
+  'sys.cfg.integration.gridCol.applicableVersion': 'applicableVersion',
+  'sys.cfg.integration.gridCol.category': 'category',
+  'sys.cfg.integration.gridCol.subCategory': 'subCategory',
+  'sys.cfg.integration.gridCol.dbType': 'dbType',
+  'sys.cfg.integration.gridCol.label': 'label',
+  'sys.cfg.integration.gridCol.key': 'key',
+  'sys.cfg.integration.gridCol.sort': 'sort',
+  'sys.cfg.integration.gridCol.title': 'title',
+  'sys.cfg.integration.gridCol.descr': 'descr',
+  'sys.cfg.integration.gridCol.ValueType': 'ValueType',
+  'sys.cfg.integration.gridCol.defaultValue': 'defaultValue',
+  'sys.cfg.integration.gridCol.isRequired': 'isRequired',
+  'sys.cfg.integration.gridCol.compType': 'compType',
+  'sys.cfg.integration.gridCol.compConfig': 'compConfig',
+  'sys.cfg.integration.gridCol.isAdvanced': 'isAdvanced',
+
+  'sys.cfg.integration.clone.valid.miss.product': 'miss clone item : product',
+  'sys.cfg.integration.clone.valid.miss.dbType': 'miss clone item : dbType',
+  'sys.cfg.integration.clone.valid.miss.category': 'miss clone item : category',
+  'sys.cfg.integration.box.isOverlay': 'isOverlay',
+  'sys.cfg.integration.box.title': 'clone config',
+}

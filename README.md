@@ -52,13 +52,160 @@
 - 提供资产总览、检索、维护、数据库资产即席查询、附件资产下载等功能，并支持安全权限控制和加密，确保数据资产的安全和可控。
 ![img_12.png](img/img_12.png)
 
-#### 数据开发
-- 数据开发模块提供了任务总览、Flink配置、Flink SQL可视化开发和Flink执行实例等功能，支持多版本Flink的接入和使用。这使得用户能够轻松地进行数据开发和处理任务，提高数据处理的效率和准确性。
-![img_13.png](img/img_13.png)
+#### 计算平台
+- 计算平台提供了运维中心、任务总览、配置中心、集群管理、告警中心、Flink配置、Flink SQL可视化开发和Flink执行实例等功能，支持多版本Flink的接入和使用。这使得用户能够轻松地进行数据开发和处理任务，提高数据处理的效率和准确性。
+
+##### 运维中心
+- 运维总览
+在运维总览，可以查看作业实例运行信息，可对实例进行详情查看
+![img.png](img/server/img.png)
+
+- 运维详情
+针对任务的关键指标查看，作业信息，作业日志，版本信息，作业快照，SQL血缘，告警记录。
+![img_1.png](img/server/img_1.png)
+
+##### 数据开发
+支持Flink SQL可视化开发，DAG，SQL检查，执行计划等
+![img_2.png](img/server/img_2.png)
+![img_4.png](img/server/img_4.png)
+![img_5.png](img/server/img_5.png)
+![img_6.png](img/server/img_6.png)
+
+##### 集群管理
+支持多种集群类型，包括Kubernetes和Yarn等提交模式
+![img_3.png](img/server/img_3.png)
+![img_7.png](img/server/img_7.png)
+![img_8.png](img/server/img_8.png)
+
+##### 配置中心
+支持数据源配置，全局变量，环境变量，Flink配置，资源配置，UDF管理等
+- 数据源
+![img_9.png](img/server/img_9.png)
+
+- 全局变量
+![img_10.png](img/server/img_10.png)
+
+- 环境变量
+![img_11.png](img/server/img_11.png)
+
+- Flink配置
+![img_12.png](img/server/img_12.png)
+
+- 资源配置
+![img_13.png](img/server/img_13.png)
+
+- UDF管理
+![img_14.png](img/server/img_14.png)
+
+##### 告警中心
+支持告警模版、告警定义、告警组和告警实例等功能，帮助用户管理告警信息，提高数据处理的自动化和智能化水平。
+- 告警模版
+![img_15.png](img/server/img_15.png)
+
+- 告警定义
+![img_16.png](img/server/img_16.png)
+
+- 告警组
+![img_17.png](img/server/img_17.png)
+
+- 告警实例
+![img_18.png](img/server/img_18.png)
 
 #### 调度管理
 - 调度管理模块包括调度器管理、默认Quartz调度、调度任务配置和调度任务实例等功能。它支持多种任务类型，如数据库执行、SQL执行、JAR上传、Python文件和API接口调用等，并允许用户自定义开发调度任务。这使得用户能够灵活地进行任务调度和管理，提高数据处理的自动化和智能化水平。
 ![img_14.png](img/img_14.png)
+
+#### 服务编排
+将一系列分散的、独立的服务，依据特定的业务逻辑和流程进行有序组合与协调实现业务流程的自动化和优化，显著提升运营效率，当需求发生变化或业务流程需要调整时，可以快速地对服务编排进行修改和重新配置，无需进行大规模的系统改造，大大缩短了新产品或新业务上线的周期，使企业能够更迅速地响应市场变化，在激烈的竞争中占据优势
+##### 创建Project
+创建Project，支持Project级别的参数设定等功能
+![img_19.png](img/server/img_19.png)
+
+##### 服务编排
+- 编排定义
+支持Addax、Seatunnel、Flink、SQL、Shell、Python、Http及告警等任务类型。
+支持对编排的配置、运行、上线、定时、停止、删除、复制、导出、导入、历史版本查看回滚等功能。
+支持任务执行策略的配置，包括节点参数，通知策略，重试次数、重试间隔、告警等功能。
+![img_20.png](img/server/img_20.png)
+![img_21.png](img/server/img_21.png)
+![img_40.png](img/server/img_40.png)
+
+- 编排实例
+支持对编排实例的运行流程图查看、重跑、停止、暂停、恢复执行，查看执行日志，查看执行进度等功能。
+![img_22.png](img/server/img_22.png)
+![img_23.png](img/server/img_23.png)
+
+- 编排定时
+支持对编排任务cron定时执行、启用、停止等功能
+![img_24.png](img/server/img_24.png)
+
+- 任务实例
+支持对单个任务实例进行查看、重跑、查看执行日志等功能。
+![img_25.png](img/server/img_25.png)
+
+- 任务定义
+支持对单个任务定义的查看、编辑等功能。
+![img_26.png](img/server/img_26.png)
+
+##### 告警管理
+支持告警模版、告警定义、告警组和告警实例等功能，帮助用户管理告警信息，提高数据处理的自动化和智能化水平。
+
+- 告警模版
+设定通用模版，可在告警定义中进行引用，支持告警模版中变量的动态替换。
+![img_27.png](img/server/img_27.png)
+
+- 告警定义
+支持钉钉、企业微信、飞书、邮箱告警。
+![img_28.png](img/server/img_28.png)
+
+- 告警组
+支持不同告警类型的告警组管理，支持告警组中告警定义的动态替换。
+支持组内不同告警返回的告警信息进行合并，告警结果互不影响，告警组内告警定义的告警结果不会影响其他告警组内的告警定义。
+![img_29.png](img/server/img_29.png)
+
+- 告警实例
+对告警实例进行结果查看，按告警组及定义的告警结果进行查看。
+![img_30.png](img/server/img_30.png)
+
+##### 资源中心
+- 资源配置
+支持Local、FTP服务器、HDFS、OSS、OBS等资源配置。
+![img_31.png](img/server/img_31.png)
+
+- UDF管理
+支持UDF、UDAF、UDTF函数类型
+支持Jar包、代码实现类型
+支持Java、Scala、Python代码类型
+![img_32.png](img/server/img_32.png)
+
+- 任务组管理
+对任务组进行配置，支持任务组最大并发量等参数配置。
+![img_33.png](img/server/img_33.png)
+
+- 任务组队列
+任务组队列查看，可查看当前任务组运行量、等待量等信息。
+![img_34.png](img/server/img_34.png)
+
+- 任务组实例
+可查看任务具体的运行中实例和等待中实例。
+![img_35.png](img/server/img_35.png)
+
+##### 安全中心
+- Worker分组
+对任务执行时的分组信息，服务编排时可限定任务Worker分组,限定后任务在该分组内执行。
+![img_36.png](img/server/img_36.png)
+
+- 环境管理
+在线配置Worker运行环境，一个Worker可以指定多个环境。
+![img_37.png](img/server/img_37.png)
+
+- 集群管理
+每个服务编排定义可以绑定零到若干个集群用来支持多集群。
+![img_38.png](img/server/img_38.png)
+
+- 命名空间管理
+支持多个命名空间，每个命名空间可以指定集群环境。
+![img_39.png](img/server/img_39.png)
 
 #### 系统管理
 - 系统管理模块是Bigprime DGP的基础配置和管理中心，主要包括组织、角色、人员、菜单和基础配置（如文件存储）等功能。通过系统管理模块，用户可以轻松地进行用户管理和权限分配，确保平台的安全性和稳定性。同时，基础配置功能使得用户能够灵活配置平台的存储和文件管理等参数，满足不同的业务需求。
@@ -97,12 +244,12 @@
 ### 测试环境地址
 - [测试地址](http://124.71.15.237:8259/#/login/)
 
-### 联系我们
+### 欢迎交流
 - **欢迎您加入社区交流分享**
   - **微信交流群**
-  <img style="margin: 20px 20px 20px 0;" src="img/us.png" width="300" height="300"/>
+  <img style="margin: 20px 20px 20px 0;" src="img/us.png"  width="300" height="300"/>
 
-  - **QQ交流群：**
+  - **QQ交流群：加群备注：Bigprime**
   
   <img style="margin: 20px 20px 20px 0;" src="img/qq.png" width="300" height="300"/>
 
